@@ -12,8 +12,7 @@ jobs:
       release_name: ${{ github.ref_name }}
       build_path: '[
           "authorization", 
-          "cross_contract/contract_a", 
-          "cross_contract/contract_b",
+          "cross_contract/contract_a",
           "custom_types",
           "events",
           "hello_world",
